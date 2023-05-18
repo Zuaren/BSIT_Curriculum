@@ -1,0 +1,128 @@
+/*IMPORT SECTION*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins, sans-serif;
+  background: #F4F6F9;
+  height: 1000px;
+}
+
+.wrapper {
+	margin: auto;
+	max-width: 1500px;
+}
+
+/*remove style and decoration*/
+
+a{
+	text-decoration: none;
+	color: gray;
+	font-weight: 100px;
+}
+a:hover {
+	color: black;
+}
+ul{
+	list-style: none;
+}
+
+h3 {
+	color: rgb(102, 5, 5);
+	font-family: poppins;
+	font-weight: 500;
+}
+
+
+
+
+/*header*/
+#nav-bar-header {
+	background: #FFFFFF ;
+    border-bottom: solid .1px #e0e2e6;
+    height: 60px;
+}
+
+.left-side{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 3rem;
+  margin-right: 3rem;
+}
+
+/*===table-edit-here*/
+
+/*---table-section-here*/
+.content_here {
+    background: white;
+}
+
+.myName{
+  border-bottom: solid 1px #e0e2e6;
+}
+.myName p {
+    color: rgb(206, 7, 7);
+    font-family: poppins, sans-serif;
+    font-weight: 600; 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/*tableheader*/
+.header{
+  height: 50px;
+}
+
+.school_year p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+tr{
+  text-align: center;
+  border: solid 1px rgb(211, 208, 208);
+}
+
+
+tr .subject-code {
+  border-right: solid 1px rgb(211, 208, 208);
+  border-left: solid 1px rgb(211, 208, 208); 
+}
+
+tr #description {
+  text-align: start;
+  padding-left: 1rem;
+}
+
+#description p {
+  font-size: .9rem;
+}
+
+.main-content {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
